@@ -9,7 +9,7 @@ VAR/* the sentences*/
     
 BEGIN
 /*parcour du chaine*/
-    write('donner ch');
+    write("donner ch");
     read(ch);
     nbv=0;
     nbw=1;
@@ -19,11 +19,10 @@ BEGIN
                 nbv=nbv+1;
             END_IF
         END_FOR
-        IF (ch[i]=' ') THEN;
+        IF (ch[i]=" ") THEN;
             nbw=nbw+1
         END_IF
     END_FOR
     write(nbv,nbw,longch);
     
 END
-go my code.
